@@ -1,6 +1,6 @@
-# Jennifer Takagi Portfolio
+# Jennifer Takagi Portfolio :ok_woman:
 
-> Welcome, take a look on my tech jorney and some projects that I've done ;)
+> Welcome, take a look at my tech journey and some projects that I've done ;)
 
 
 ### :closed_book: License
