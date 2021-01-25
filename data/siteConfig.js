@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: 'Hi! I\'m Jennifer!',
   siteDescription: `Create your online curriculum in just a few minutes with this starter`,
-  keyWords: ['gatsbyjs', 'react', 'curriculum'],
+  keyWords: ['jennifer-takagi', 'developer'],
   authorName: 'Jennifer Takagi',
   twitterUsername: 'jennitakagi',
   githubUsername: 'jennifertakagi',
@@ -129,8 +129,8 @@ module.exports = {
     medium: "https://jennifer-takagi.medium.com/",
     email: "jennitakagi@gmail.com"
   },
-  siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
-  pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
+  siteUrl: 'https://jennifertakagi.github.io/portfolio-jennifer-takagi',
+  pathPrefix: '/portfolio-jennifer-takagi', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.png',
   siteCoverLight: '/images/cover_light.png',
   googleAnalyticsId: 'UA-000000000-1',
@@ -139,7 +139,7 @@ module.exports = {
   fontColor: "#000000cc",
   enableDarkmode: true, // If true, enables dark mode switch
   display: 'minimal-ui',
-  icon: 'src/assets/favicon.ico',
+  icon: 'src/assets/icon.png',
   headerLinks: [
     {
       label: 'Home',
