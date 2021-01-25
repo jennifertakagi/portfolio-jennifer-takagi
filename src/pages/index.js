@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Container, Row, Col } from 'react-awesome-styled-grid'
-import { FaGithub, FaLinkedin, FaEnvelope, FaTwitter } from "react-icons/fa"
+import { FaGithub, FaLinkedin, FaEnvelope, FaTwitter, FaMedium } from "react-icons/fa"
 import siteConfig from '../../data/siteConfig'
 import { withPrefix } from "gatsby"
 import loadable from '@loadable/component'
@@ -25,9 +25,9 @@ const Separator = styled.hr`
 
 const Home = ({ className, location }) => {
   // validate siteConfig settings
-  if (siteConfig.googleAnalyticsId === 'UA-000000000-1') {
-    console.error('WARNING: Please set a proper googleAnalyticsId. See https://analytics.google.com for details.');
-  }
+  // if (siteConfig.googleAnalyticsId === 'UA-000000000-1') {
+  //   console.error('WARNING: Please set a proper googleAnalyticsId. See https://analytics.google.com for details.');
+  // }
 
   const title = siteConfig.siteTitle
   const { keywords } = siteConfig
@@ -40,7 +40,7 @@ const Home = ({ className, location }) => {
 
       <Hero
         heroImg={siteConfig.siteCover}
-        title={title}
+        title={''}
       />
 
       <Wrapper className={className} >
@@ -53,11 +53,14 @@ const Home = ({ className, location }) => {
                 alt='user avatar'
               />
               <div className="social">
-                {siteConfig.social.github && <a className="social-link github" href={siteConfig.social.github}>
-                  <FaGithub className="social-icon" size="32" />
-                </a>}
                 {siteConfig.social.linkedin && <a className="social-link linkedin" href={siteConfig.social.linkedin}>
                   <FaLinkedin className="social-icon" size="32" />
+                </a>}
+                {siteConfig.social.medium && <a className="social-link medium" href={siteConfig.social.medium}>
+                  <FaMedium className="social-icon" size="32" />
+                </a>}
+                {siteConfig.social.github && <a className="social-link github" href={siteConfig.social.github}>
+                  <FaGithub className="social-icon" size="32" />
                 </a>}
                 {siteConfig.social.twitter && <a className="social-link twitter" href={siteConfig.social.twitter}>
                   <FaTwitter className="social-icon" size="32" />

@@ -7,6 +7,7 @@ import loadable from '@loadable/component'
 import Hero from '../components/hero'
 import SEO from '../components/SEO'
 import Wrapper from '../components/wrapper'
+import { FaGithub } from "react-icons/fa"
 
 const Layout = loadable(() => import('../components/layout'))
 
@@ -31,9 +32,9 @@ const JobCard = styled.a`
   `}
 `
 
-const Portifolio = ({ className, location }) => {
-  const title = "Portifolio"
-  const { keywords, portifolio } = siteConfig
+const Portfolio = ({ className, location }) => {
+  const title = "Portfolio"
+  const { keywords, portfolio } = siteConfig
   return (
     <Layout location={location}>
       <SEO
@@ -42,14 +43,14 @@ const Portifolio = ({ className, location }) => {
       />
 
       <Hero
-        heroImg={withPrefix('/images/pierre-chatel-innocenti-W5INoOK-5eI-unsplash.jpeg')}
+        heroImg={withPrefix('/images/cover_portfolio.jpg')}
         title={title}
       />
 
       <Wrapper className={className}>
         <Container className="page-content" fluid>
           <Row>
-            {portifolio.map(job => (
+            {portfolio.map(job => (
               <Col
                 key={job.description}
                 align="center"
@@ -60,7 +61,12 @@ const Portifolio = ({ className, location }) => {
                   target="_blank"
                 >
                   <Image src={withPrefix(job.image)} />
-                  <p>{job.description}</p>
+                  <p style={{ 'display': 'flex' }}>
+                    {job.description}
+                    {job.github && <a style={{ 'margin': ' 3px 10px' }} href={job.github}>
+                      <FaGithub className="social-icon" size="20" />
+                    </a>}
+                  </p>
                 </JobCard>
               </Col>
             ))}
@@ -71,7 +77,7 @@ const Portifolio = ({ className, location }) => {
   )
 }
 
-export default styled(Portifolio)`
+export default styled(Portfolio)`
   .page-content {
     max-width: 100%;
     margin-bottom: 40px;
