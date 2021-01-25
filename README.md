@@ -2,7 +2,7 @@
 
 > Welcome, take a look at my tech journey and some projects that I've done ;)
 
-
+:computer: https://jennifer-takagi.vercel.app/
 
 
 ### :closed_book: License
