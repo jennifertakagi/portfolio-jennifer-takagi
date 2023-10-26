@@ -1,24 +1,21 @@
 module.exports = {
-  siteTitle: 'Hi! I\'m Jennifer!',
-  siteDescription: `Create your online curriculum in just a few minutes with this starter`,
+  siteTitle: 'Hi! I\'m Jenni!',
   keyWords: ['jennifer-takagi', 'developer'],
   authorName: 'Jennifer Takagi',
-  twitterUsername: 'jennitakagi',
   githubUsername: 'jennifertakagi',
   authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `I'm a Developer passionate about solve problems using code!<br />
-  I started 3 years ago studying frontend by myself.<br />
-  Recently I discovered that I love to manage teams and come up with ideas and solutions to improve our day-to-day work and deliveries.<br />
-  I currently work as a software developer and mainly work with <strong>React JS, NodeJS, Express JS, Cypress and Jest.</strong><br />
+  authorDescription: `I'm a Software Engineer with 6 years of experience, based in Spain and passionate about make people's life better using code!<br />
+  On my journey I discovered that I love work cross teams and come up with ideas and solutions to improve our day-to-day work and deliveries.<br />
+  I currently work with <strong>React JS, NodeJS, Express JS, Cypress and Jest.</strong><br />
   <strong>Also a functional programming enthusiast and a dog mother.</strong> :)`,
   skills: [
     {
       name: 'JavaScript',
-      level: 90
+      level: 95
     },
     {
       name: 'React JS',
-      level: 70
+      level: 90
     },
     {
       name: 'Vue JS',
@@ -34,7 +31,7 @@ module.exports = {
     },
     {
       name: 'TypeScript',
-      level: 50
+      level: 90
     },
     {
       name: 'Python',
@@ -42,19 +39,29 @@ module.exports = {
     },
     {
       name: 'Automation Tests',
-      level: 70
+      level: 80
     },
   ],
   jobs: [
+    {
+      company: "Personio",
+      begin: {
+        month: 'dec',
+        year: '2021'
+      },
+      duration: null,
+      occupation: "Software Engineer",
+      description: 'I work as a Software Developer  in the Employee Performance & Development team, facilitating the definition of employee development initiatives, supporting them in continuing professional training and empower organizations to set meaningful goals for their employees while streamlining the calibration process, fostering growth and excellence. Main Technologies: React JS, TypesScript, Next js, automation tests (Cypres, Jest, and Playwright) and Kotlin.'
+    }, 
     {
       company: "Mercado Libre",
       begin: {
         month: 'oct',
         year: '2020'
       },
-      duration: null,
-      occupation: "Software developer",
-      description: 'I work as a Software Developer in the shipping IT team, developing apps to help that the packages arrive as soon as possible to the buyers. Main Technologies: React JS, TypesScript, Node JS, automation tests (Cypres, Jest, and Enzyme) and Golang.'
+      duration: '1 yr e 2 mos',
+      occupation: "Software Developer",
+      description: 'I worked as a Software Developer in the shipping IT team, developing apps to help that the packages arrive as soon as possible to the buyers. Main Technologies: React JS, TypesScript, Node JS, automation tests (Cypres, Jest, and Enzyme) and Golang.'
     },  {
       company: "Linx",
       begin: {
