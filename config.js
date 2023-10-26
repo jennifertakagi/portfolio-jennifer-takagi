@@ -27,7 +27,7 @@ module.exports = {
     },
     {
       name: 'Node JS',
-      level: 70
+      level: 80
     },
     {
       name: 'TypeScript',
