@@ -1,21 +1,24 @@
 module.exports = {
   siteTitle: 'Hi! I\'m Jenni!',
-  keyWords: ['jennifer-takagi', 'developer'],
+  siteDescription: `Hey, I am Jennifer Takagi, a 6 years experienced Software Engineer`,
+  keyWords: ['jennifer-takagi', 'developer', 'software', 'frontend'],
   authorName: 'Jennifer Takagi',
+  twitterUsername: 'jennitakagi',
   githubUsername: 'jennifertakagi',
   authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `I'm a Software Engineer with 6 years of experience, based in Spain and passionate about make people's life better using code!<br />
-  On my journey I discovered that I love work cross teams and come up with ideas and solutions to improve our day-to-day work and deliveries.<br />
-  I currently work with <strong>React JS, NodeJS, Express JS, Cypress and Jest.</strong><br />
+  authorDescription: `I'm a brazilian Software Engineer based in Madrid 🇧🇷🇪🇸<br />
+  Six years ago I discover this amazing world where I can solve problems with lines of code.<br />
+  In the last year, I discovered my passion on managing teams and cross solutions to improve our day-to-day work and product deliveries.<br />
+  I am currently building a HR Software and mainly working with <strong>React JS, NodeJS, Next JS and Playwright.</strong><br />
   <strong>Also a functional programming enthusiast and a dog mother.</strong> :)`,
   skills: [
     {
       name: 'JavaScript',
-      level: 95
+      level: 90
     },
     {
       name: 'React JS',
-      level: 90
+      level: 85
     },
     {
       name: 'Vue JS',
@@ -31,7 +34,7 @@ module.exports = {
     },
     {
       name: 'TypeScript',
-      level: 90
+      level: 80
     },
     {
       name: 'Python',
@@ -51,8 +54,8 @@ module.exports = {
       },
       duration: null,
       occupation: "Software Engineer",
-      description: 'I work as a Software Developer  in the Employee Performance & Development team, facilitating the definition of employee development initiatives, supporting them in continuing professional training and empower organizations to set meaningful goals for their employees while streamlining the calibration process, fostering growth and excellence. Main Technologies: React JS, TypesScript, Next js, automation tests (Cypres, Jest, and Playwright) and Kotlin.'
-    }, 
+      description: ' I work as a Software Engineer in the Employee Performance & Development team, facilitating the definition of employee development initiatives and supporting them in continuing professional training, enabling employees to give and request valuable feedback and empowering organizations to set meaningful goals for their employees while streamlining the calibration process, fostering growth and excellence. Main Technologies: React JS, TypesScript, Node JS, automation tests (Jest and Playwright) and Kotlin.'
+    },
     {
       company: "Mercado Libre",
       begin: {
@@ -69,7 +72,7 @@ module.exports = {
         year: '2019'
       },
       duration: '1 yr e 6 mos',
-      occupation: "FullStack developer",
+      occupation: "FullStack Developer",
       description: "I worked as a FullStack Developer in the integration team, in Linx Impulse, so I integrate our products on the client's site. Main Technologies: Javascript, jQuery, Vue JS, Node JS, Mongo DB, Cypress, Jest, Mocha, Python, PHP, Circle CI, Lerna, HTML5, and CSS3."
   
     }, {
@@ -79,7 +82,7 @@ module.exports = {
         year: '2018'
       },
       duration: '9 mos',
-      occupation: "Frontend intern",
+      occupation: "Frontend Developer Intern",
       description: "I worked as a FrontEnd Intern developing dynamic content (apps) for screens that use a digital signal. Main Technologies: Javascript, APIs, Jinja 2, Github, HTML5, and CSS3."
     },
     {
@@ -89,7 +92,7 @@ module.exports = {
         year: '2018'
       },
       duration: '8 mos',
-      occupation: "UI Intern",
+      occupation: "Frontend Developer Intern",
       description: "I worked as a UI Intern, so I assistance in the implementations of our clients in Oracle e-commerce. Main Technologies: Javascript, Knockout JS, JSON, OCC, HTML5, and CSS3."
     },
     {
@@ -99,11 +102,23 @@ module.exports = {
         year: '2017'
       },
       duration: '4 yrs e 3 mos',
-      occupation: "Frontend intern/Freelance",
+      occupation: "Fullstack Developer Intern/Freelance",
       description: "I worked as a frontend intern and as a freelance web developer, developing and maintaining of the website; formatting and sending newsletters using e-mail marketing platforms; supporting the staff in technical questions of the portal, e-mail, social networks, and content editions."
     },
   ],
   portfolio: [
+    {
+      image: "/images/how-is-the-weather.gif",
+      description: "How's the weather? (Angular)",
+      url: "https://weather-app26.vercel.app/",
+      github: "https://github.com/jennifertakagi/weather-app",
+    },
+    {
+      image: "/images/shake-dev.gif",
+      description: "Shake Dev (React JS)",
+      url: "https://shakedev.vercel.app/",
+      github: "https://github.com/jennifertakagi/shakedev",
+    },
     {
       image: "/images/whats-in-your-bar.gif",
       description: "What's in you bar? (React JS)",
@@ -130,7 +145,6 @@ module.exports = {
     },
   ],
   social: {
-    twitter: "https://twitter.com/jennitakagi",
     linkedin: "https://www.linkedin.com/in/jennifer-takagi/",
     github: "https://github.com/jennifertakagi",
     medium: "https://jennifer-takagi.medium.com/",
@@ -138,7 +152,7 @@ module.exports = {
   },
   siteUrl: 'https://jennifertakagi.github.io/portfolio-jennifer-takagi',
   pathPrefix: '/portfolio-jennifer-takagi', // Note: it must *not* have a trailing slash.
-  siteCover: '/images/cover.png',
+  siteCover: '/images/cover_light.png',
   siteCoverLight: '/images/cover_light.png',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#faf7f7',
