@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Hi! I\'m Jenni!',
+  siteTitle: 'Hey! I\'m Jenni!',
   siteDescription: `Hey, I am Jennifer Takagi, a 6 years experienced Software Engineer`,
   keyWords: ['jennifer-takagi', 'developer', 'software', 'frontend'],
   authorName: 'Jennifer Takagi',
@@ -8,17 +8,17 @@ module.exports = {
   authorAvatar: '/images/avatar.jpeg',
   authorDescription: `I'm a brazilian Software Engineer based in Madrid 🇧🇷🇪🇸<br />
   Six years ago I discover this amazing world where I can solve problems with lines of code.<br />
-  In the last year, I discovered my passion on managing teams and cross solutions to improve our day-to-day work and product deliveries.<br />
-  I am currently building a HR Software and mainly working with <strong>React JS, NodeJS, Next JS and Playwright.</strong><br />
+  In the last year, I start developing a passion on managing teams and cross solutions to improve our day-to-day work and product deliveries.<br />
+  I am currently working on a unicorn startup, building a HR Software and mainly coding with <strong>React JS, NodeJS, Next JS and Playwright.</strong><br />
   <strong>Also a functional programming enthusiast and a dog mother.</strong> :)`,
   skills: [
     {
       name: 'JavaScript',
-      level: 90
+      level: 95
     },
     {
       name: 'React JS',
-      level: 85
+      level: 90
     },
     {
       name: 'Vue JS',
@@ -26,15 +26,15 @@ module.exports = {
     },
     {
       name: 'React Native',
-      level: 40
+      level: 50
     },
     {
       name: 'Node JS',
-      level: 80
+      level: 90
     },
     {
       name: 'TypeScript',
-      level: 80
+      level: 90
     },
     {
       name: 'Python',
@@ -42,7 +42,7 @@ module.exports = {
     },
     {
       name: 'Automation Tests',
-      level: 80
+      level: 90
     },
   ],
   jobs: [
