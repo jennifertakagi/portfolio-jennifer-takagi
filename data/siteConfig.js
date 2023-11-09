@@ -150,7 +150,7 @@ module.exports = {
     medium: "https://jennifer-takagi.medium.com/",
     email: "jennitakagi@gmail.com"
   },
-  siteUrl: 'https://jennifertakagi.github.io/portfolio-jennifer-takagi',
+  siteUrl: 'https://jennifer-takagi.vercel.app/',
   pathPrefix: '/portfolio-jennifer-takagi', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover_light.png',
   siteCoverLight: '/images/cover_light.png',
