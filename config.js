@@ -6,11 +6,12 @@ module.exports = {
   twitterUsername: 'jennitakagi',
   githubUsername: 'jennifertakagi',
   authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `I'm a brazilian Software Engineer based in Madrid 🇧🇷🇪🇸<br />
-  Six years ago I discover this amazing world where I can solve problems with lines of code.<br />
-  In the last year, I start developing a passion on managing teams and cross solutions to improve our day-to-day work and product deliveries.<br />
-  I am currently working on a unicorn startup, building a HR Software and mainly coding with <strong>React JS, NodeJS, Next JS and Playwright.</strong><br />
-  <strong>Also a functional programming enthusiast and a dog mother.</strong> :)`,
+  authorDescription: `Hi, I'm Jenni 👋 , a Brazilian Software Developer in Madrid with a Bachelor’s degree in Information Technology Management
+  and over 6 years of experience - also a proud dog mom and a craft beer aficionado 🐶🍺.<br /><br />
+  Passionate about clean code and functional programming, I actively contribute to the developer community.
+  Aspiring to use my coding skills to enhance lives, I'm on the path to becoming a Staff Engineer.<br /><br />
+  Earlier, I honed my skills during 1.5 years of internships at OnSign TV, developing dynamic content; at McFadyen Digital, assisting in Oracle e-commerce implementations;
+  and at Dialetto, contributing to web development and technical support.`,
   skills: [
     {
       name: 'JavaScript',
@@ -41,8 +42,24 @@ module.exports = {
       level: 60
     },
     {
-      name: 'Automation Tests',
+      name: 'Kotlin',
+      level: 40
+    },
+    {
+      name: 'Database (SQL, Mongo DB)',
+      level: 50
+    },
+    {
+      name: 'Unit tests tools (RTL, Jest, Chai)',
       level: 90
+    },
+    {
+      name: 'Tests tools (Cypress, Playwright, Sellenium)',
+      level: 80
+    },
+    {
+      name: 'Git',
+      level: 100
     },
   ],
   jobs: [
@@ -54,7 +71,12 @@ module.exports = {
       },
       duration: null,
       occupation: "Software Engineer",
-      description: ' I work as a Software Engineer in the Employee Performance & Development team, facilitating the definition of employee development initiatives and supporting them in continuing professional training, enabling employees to give and request valuable feedback and empowering organizations to set meaningful goals for their employees while streamlining the calibration process, fostering growth and excellence. Main Technologies: React JS, TypesScript, Node JS, automation tests (Jest and Playwright) and Kotlin.'
+      description: `<ul>
+      <li>Contributed to the Employee Performance and Development team, collaborating with all four squads within my tribe in a support engineer role.</li>
+      <li>Led the creation of a user-friendly continuous feedback tool.</li>
+      <li>Established a common components library used across all the teams.</li>
+      <li>Currently spearheading an overhaul initiative with the Design System team, building new components for company-wide use.</li>
+      </ul>`
     },
     {
       company: "Mercado Libre",
@@ -64,8 +86,13 @@ module.exports = {
       },
       duration: '1 yr e 2 mos',
       occupation: "Software Developer",
-      description: 'I worked as a Software Developer in the shipping IT team, developing apps to help that the packages arrive as soon as possible to the buyers. Main Technologies: React JS, TypesScript, Node JS, automation tests (Cypres, Jest, and Enzyme) and Golang.'
-    },  {
+      description: `<ul>
+      <li>Played a key role in the shipping IT team, collaborating with the UX team to optimize operational experiences.</li>
+      <li>Led the creation of a new product to manage package flow.</li>
+      <li>Build a BFF (Back for Frontend) to solve frictions on the UI.</li>
+      <li>Responsible for decision-making on layouts, performance, and code quality for front- end deliveries.</li>
+      </ul>`
+      },  {
       company: "Linx",
       begin: {
         month: 'may',
@@ -73,38 +100,12 @@ module.exports = {
       },
       duration: '1 yr e 6 mos',
       occupation: "FullStack Developer",
-      description: "I worked as a FullStack Developer in the integration team, in Linx Impulse, so I integrate our products on the client's site. Main Technologies: Javascript, jQuery, Vue JS, Node JS, Mongo DB, Cypress, Jest, Mocha, Python, PHP, Circle CI, Lerna, HTML5, and CSS3."
-  
-    }, {
-      company: "OnSignTV",
-      begin: {
-        month: 'sep',
-        year: '2018'
-      },
-      duration: '9 mos',
-      occupation: "Frontend Developer Intern",
-      description: "I worked as a FrontEnd Intern developing dynamic content (apps) for screens that use a digital signal. Main Technologies: Javascript, APIs, Jinja 2, Github, HTML5, and CSS3."
-    },
-    {
-      company: "McFadyen Digital",
-      begin: {
-        month: 'feb',
-        year: '2018'
-      },
-      duration: '8 mos',
-      occupation: "Frontend Developer Intern",
-      description: "I worked as a UI Intern, so I assistance in the implementations of our clients in Oracle e-commerce. Main Technologies: Javascript, Knockout JS, JSON, OCC, HTML5, and CSS3."
-    },
-    {
-      company: "Dialetto",
-      begin: {
-        month: 'nov',
-        year: '2017'
-      },
-      duration: '4 yrs e 3 mos',
-      occupation: "Fullstack Developer Intern/Freelance",
-      description: "I worked as a frontend intern and as a freelance web developer, developing and maintaining of the website; formatting and sending newsletters using e-mail marketing platforms; supporting the staff in technical questions of the portal, e-mail, social networks, and content editions."
-    },
+      description: `<ul>
+      <li>Worked in the integration team at Linx Impulse, focusing on integrating products into client sites.</li>
+      <li>Led an "automation tests as a microservice" project, overseeing two colleagues.</li>
+      <li>Contributed to a components library used by the entire team.</li>
+      </ul>`
+    }
   ],
   portfolio: [
     {
