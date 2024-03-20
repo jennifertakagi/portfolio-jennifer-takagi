@@ -39,7 +39,7 @@ module.exports = {
     },
     {
       name: 'Python',
-      level: 60
+      level: 70
     },
     {
       name: 'Kotlin',
@@ -64,18 +64,31 @@ module.exports = {
   ],
   jobs: [
     {
+      company: "OpenBank",
+      begin: {
+        month: 'mar',
+        year: '2024'
+      },
+      duration: null,
+      occupation: "Senior Software Engineer",
+      description: `<ul>
+      <li>Contributed to the Zinia team, mainly on mortage product.</li>
+      <li>Work in mortage application</li>
+      </ul>`
+    },
+    {
       company: "Personio",
       begin: {
         month: 'dec',
         year: '2021'
       },
-      duration: null,
+      duration: '2 yr e 3 mos',
       occupation: "Software Engineer",
       description: `<ul>
       <li>Contributed to the Employee Performance and Development team, collaborating with all four squads within my tribe in a support engineer role.</li>
       <li>Led the creation of a user-friendly continuous feedback tool.</li>
       <li>Established a common components library used across all the teams.</li>
-      <li>Currently spearheading an overhaul initiative with the Design System team, building new components for company-wide use.</li>
+      <li>Spearheaded an overhaul initiative with the Design System team, building new components for company-wide use.</li>
       </ul>`
     },
     {
