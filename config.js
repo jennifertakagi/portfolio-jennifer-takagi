@@ -1,12 +1,12 @@
 module.exports = {
   siteTitle: 'Hey! I\'m Jenni!',
   siteDescription: `Hey, I am Jennifer Takagi, a 6 years experienced Software Engineer`,
-  keyWords: ['jennifer-takagi', 'developer', 'software', 'frontend'],
+  keyWords: ['jennifer-takagi', 'developer', 'software', 'engineer', 'senior-engineer', 'frontend'],
   authorName: 'Jennifer Takagi',
   twitterUsername: 'jennitakagi',
   githubUsername: 'jennifertakagi',
   authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `Hi, I'm Jenni 👋 , a Brazilian Software Developer in Madrid with a Bachelor’s degree in Information Technology Management
+  authorDescription: `Hi, I'm Jenni 👋 , a Brazilian Senior Software Engineer in Madrid with a Bachelor’s degree in Information Technology Management
   and over 6 years of experience - also a proud dog mom and a craft beer aficionado 🐶🍺.<br /><br />
   Passionate about clean code and functional programming, I actively contribute to the developer community.
   Aspiring to use my coding skills to enhance lives, I'm on the path to becoming a Staff Engineer.<br /><br />
@@ -82,7 +82,7 @@ module.exports = {
         month: 'dec',
         year: '2021'
       },
-      duration: '2 yr e 3 mos',
+      duration: '2 yr e 4 mos',
       occupation: "Software Engineer",
       description: `<ul>
       <li>Contributed to the Employee Performance and Development team, collaborating with all four squads within my tribe in a support engineer role.</li>
