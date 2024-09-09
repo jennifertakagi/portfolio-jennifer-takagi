@@ -7,7 +7,7 @@ module.exports = {
   githubUsername: 'jennifertakagi',
   authorAvatar: '/images/avatar.jpeg',
   authorDescription: `Hi, I'm Jenni 👋 , a Brazilian Senior Software Engineer in Madrid with a Bachelor’s degree in Information Technology Management
-  and over 6 years of experience - also a proud dog mom and a craft beer aficionado 🐶🍺.<br /><br />
+  and over 7 years of experience - also a proud dog mom and a craft beer aficionado 🐶🍺.<br /><br />
   Passionate about clean code and functional programming, I actively contribute to the developer community.
   Aspiring to use my coding skills to enhance lives, I'm on the path to becoming a Staff Engineer.<br /><br />
   Earlier, I honed my skills during 1.5 years of internships at OnSign TV, developing dynamic content; at McFadyen Digital, assisting in Oracle e-commerce implementations;
@@ -72,8 +72,10 @@ module.exports = {
       duration: null,
       occupation: "Senior Software Engineer",
       description: `<ul>
-      <li>Contributed to the Zinia team, mainly on mortage product.</li>
-      <li>Work in mortage application</li>
+      <li>Part of the Buy Now, Pay Later tribe on the Payments team. Responsible for providing a
+      smoother and safer experience for customers.</li>
+      <li>Working on payment integrations, ensuring security and agility in this process.</li>
+      <li>Contributing to the common components library and accessibility project.</li>
       </ul>`
     },
     {
